@@ -15,6 +15,7 @@ This number is expected to be higher in developing countries.
 the finest solution for lung cancer is early diagnosis and treatment. To this end, the primary and critical step for early diagnosis and treatment of lung cancer is identifying the lung whether it is infected by cancer or not, with better screening approaches leading to polished patient result.  
 
 ### Data Science Bowl challenge
+![kaggle data science](https://github.com/E008001/Multi-path-CNN/blob/master/breath.jpg)
 The Data Science Bowl, presented by Booz Allen and Kaggle, is the world’s premier data science for social good competition. It convenes data scientists, technologists, domain experts, and organizations to take on the world’s challenges with data and technology. It’s a platform through which individuals can harness their passion, unleash their curiosity, and amplify their impact to effect change on a global scale.
 
 ### Dataset
