@@ -47,3 +47,8 @@ others), where we categorized them into training set, validation set, and test s
 proposed mp-CNN
 
 ## Model Training
+
+### Multi-path CNN architecture
+Multi-path CNN architecture design is a CNN Network having multi-path convolutional
+layers, the path considering smaller, medium, and larger receptive field sizes. these paths first, second, and third path, respectively.  
+That the receptive field size of the first path is 3×3, the second path is 5×5, and the third paths is 7×7.
