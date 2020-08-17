@@ -1,7 +1,14 @@
 # Multi-path-CNN
 Multi – path Convolution Neural Network for Lung Cancer Detection
 ## The Problem 
-The United States accounts for the loss of approximately 225,000 people each year due to lung cancer, with an added monetary loss of $12 billion dollars each year. The office of the Vice President allots a special concentration of effort in the direction of early detection of lung cancer, since this can increase survival rate of the victims. In accordance with Kaggle & ‘Booz, Allen, Hamilton’, they host a competition on Kaggle for detecting malignant blobs and nodules in the CT scans of patients by devising powerful machine learning algorithm. Being an interesting problem, providing a wide range of approaches for devising a solution, we (the team) decided to work on the Data Science Bowl 2017 problem 
+In the United States, lung cancer strikes 225,000 people every year, and accounts for $12 billion in health care costs. Early detection is critical to give patients the best chance at recovery and survival.  
+
+One year ago, the office of the U.S. Vice President spearheaded a bold new initiative, the Cancer Moonshot, to make a decade's worth of progress in cancer prevention, diagnosis, and treatment in just 5 years.  
+
+In 2017, the Data Science Bowl will be a critical milestone in support of the Cancer Moonshot by convening the data science and medical communities to develop lung cancer detection algorithms.  
+
+Using a data set of thousands of high-resolution lung scans provided by the National Cancer Institute, participants will develop algorithms that accurately determine when lesions in the lungs are cancerous. This will dramatically reduce the false positive rate that plagues the current detection technology, get patients earlier access to life-saving interventions, and give radiologists more time to spend with their patients.  
+
 ## Data & Pre-processing
 The competition organizers have provided 2 categories of data sets. The first category is a set of images of the CT scans of different patients.  
 The second aspect of the dataset involves a set of labels for the patients. The number of CT scan images for every patient is not fixed & hence, the number of the images is different  
