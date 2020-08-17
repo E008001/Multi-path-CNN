@@ -26,6 +26,15 @@ Converting the pixel values to Hounsfield Units (HU): Pixel units are converted 
 Lung Segmentation: Lung segmentation is a process to identify boundaries of lungs in a CT scan image. Lung Tissue, Blood in Heart, Muscles and other lean tissues are removed by thresholding the pixels, setting a particular color for air background and using dilation and erosion operations for better separation and clarity.   
 
 Normalization: Normalization is a good approach in deep learning and particularly for this problem, since it involves Hounsfeld Units, the pixel values need to be normalized.  
-Zero Centering: Zero Scaling is important to reduce the effect of the scaling differenced and depend only on the content of the images.  
+Zero Centering: Zero Scaling is important to reduce the effect of the scaling differenced and depend only on the content of the images. 
+
+### Dataset
+This is a project to detect lung cancer from CT scan images using Deep learning (CNN) 
+
+KDSB dataset - https://www.kaggle.com/c/data-science-bowl-2017/data
+
+LUNA dataset-https://luna16.grand-challenge.org/download/
+
+### U-Net Network
 
 ## Model Training
