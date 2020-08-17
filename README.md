@@ -9,6 +9,9 @@ In 2017, the Data Science Bowl will be a critical milestone in support of the Ca
 
 Using a data set of thousands of high-resolution lung scans provided by the National Cancer Institute, participants will develop algorithms that accurately determine when lesions in the lungs are cancerous. This will dramatically reduce the false positive rate that plagues the current detection technology, get patients earlier access to life-saving interventions, and give radiologists more time to spend with their patients.  
 
+### Data Science Bowl challenge
+The Data Science Bowl, presented by Booz Allen and Kaggle, is the world’s premier data science for social good competition. It convenes data scientists, technologists, domain experts, and organizations to take on the world’s challenges with data and technology. It’s a platform through which individuals can harness their passion, unleash their curiosity, and amplify their impact to effect change on a global scale.
+
 ## Data & Pre-processing
 The competition organizers have provided 2 categories of data sets. The first category is a set of images of the CT scans of different patients.  
 The second aspect of the dataset involves a set of labels for the patients. The number of CT scan images for every patient is not fixed & hence, the number of the images is different  
