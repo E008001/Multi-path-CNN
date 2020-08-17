@@ -36,6 +36,7 @@ Normalization: Normalization is a good approach in deep learning and particularl
 Zero Centering: Zero Scaling is important to reduce the effect of the scaling differenced and depend only on the content of the images. 
 
 ### U-Net Network
+![img](http://i.imgur.com/yourfilename.png)
 Image segmentation using U-Net
 During training, the modified U-Net takes as an input 256×256 2D CT slices, and their corresponding labels are provided by masking 256×256, where nodule pixels are 1 and the
 rests are 0.  
