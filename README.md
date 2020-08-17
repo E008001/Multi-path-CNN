@@ -1,7 +1,7 @@
 ## Multi-path CNN
 Multi – path Convolution Neural Networks for Lung Cancer Detection
 ## The Problem 
-lung cancer strikes 225,000 people every year in the United States,and more and more in all ao the world. Early detection is critical to give patients the best chance at recovery and survival.   
+lung cancer strikes 225,000 people every year in the United States,and more and more in all of the world. Early detection is critical to give patients the best chance at recovery and survival.   
 
 In 2017, the Data Science Bowl will be a critical milestone in support of the Cancer Moonshot by convening the data science and medical communities to develop lung cancer detection algorithms.  
 
