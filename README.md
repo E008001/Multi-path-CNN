@@ -1,5 +1,5 @@
-# Multi-path-CNN
-Multi – path Convolution Neural Network for Lung Cancer Detection
+## Multi-path CNN
+Multi – path Convolution Neural Networks for Lung Cancer Detection
 ## The Problem 
 In the United States, lung cancer strikes 225,000 people every year, and accounts for $12 billion in health care costs. Early detection is critical to give patients the best chance at recovery and survival.  
 
@@ -7,7 +7,12 @@ One year ago, the office of the U.S. Vice President spearheaded a bold new initi
 
 In 2017, the Data Science Bowl will be a critical milestone in support of the Cancer Moonshot by convening the data science and medical communities to develop lung cancer detection algorithms.  
 
-Using a data set of thousands of high-resolution lung scans provided by the National Cancer Institute, participants will develop algorithms that accurately determine when lesions in the lungs are cancerous. This will dramatically reduce the false positive rate that plagues the current detection technology, get patients earlier access to life-saving interventions, and give radiologists more time to spend with their patients.  
+Using a data set of thousands of high-resolution lung scans provided by the National Cancer Institute, participants will develop algorithms that accurately determine when lesions in the lungs are cancerous. This will dramatically reduce the false positive rate that plagues the current detection technology, get patients earlier access to life-saving interventions, and give radiologists more time to spend with their patients. 
+
+### Lung cancer
+According to the World Health Organization (WHO) report 2018, lung cancer is responsible for an estimated 1.76 million deaths  
+This number is expected to be higher in developing countries.  
+the finest solution for lung cancer is early diagnosis and treatment. To this end, the primary and critical step for early diagnosis and treatment of lung cancer is identifying the lung whether it is infected by cancer or not, with better screening approaches leading to polished patient result.  
 
 ### Data Science Bowl challenge
 The Data Science Bowl, presented by Booz Allen and Kaggle, is the world’s premier data science for social good competition. It convenes data scientists, technologists, domain experts, and organizations to take on the world’s challenges with data and technology. It’s a platform through which individuals can harness their passion, unleash their curiosity, and amplify their impact to effect change on a global scale.
