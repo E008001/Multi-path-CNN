@@ -36,5 +36,14 @@ KDSB dataset - https://www.kaggle.com/c/data-science-bowl-2017/data
 LUNA dataset-https://luna16.grand-challenge.org/download/
 
 ### U-Net Network
+Image segmentation using U-Net
+During training, the modified U-Net takes as an input 256×256 2D CT slices, and their corresponding labels are provided by masking 256×256, where nodule pixels are 1 and the
+rests are 0.  
+The output of the model is an image having the same size with an input. Each pixel of the output has a value between 0 and 1, showing the probability the pixel belongs to a nodule.  
+This is utilized by taking the slice belongs to label 1 of the softmax of the final U-Net layer. 
+Finally, the trained U-Net is then used to segment the KDSB CT scan slices. These
+candidates have variable size (small, medium and large) and shape (circular, elliptical and
+others), where we categorized them into training set, validation set, and test set to train the
+proposed mp-CNN
 
 ## Model Training
