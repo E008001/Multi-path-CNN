@@ -9,9 +9,9 @@ Since the data provided by the contributors are DICOM files of patients’ CT sc
 An overview of the chronology of tasks involved in the preprocessing steps are as follows:  
 Loading the DICOM files: Pixel information for each file and the respective metadata from each scan of each patient is extracted and is extremely useful.  
 Adding missing metadata: Missing metadata of the 'z' axis is inferred.  
-Converting the pixel values to Hounsfield Units (HU): Pixel units are converted to Hounsfeld Units, which represent the density of the matter shown in that position in the scan.  
+Converting the pixel values to Hounsfield Units (HU): Pixel units are converted to Hounsfeld Units, which represent the density of the matter shown in that position in the scan.   
 3D plotting: Since, CT scans are 3D images. Visualizing them in a 3D structure gives a better idea of what we are looking at.  
-Lung Segmentation: Lung segmentation is a process to identify boundaries of lungs in a CT scan image. Lung Tissue, Blood in Heart, Muscles and other lean tissues are removed by thresholding the pixels, setting a particular color for air background and using dilation and erosion operations for better separation and clarity.
-Normalization: Normalization is a good approach in deep learning and particularly for this problem, since it involves Hounsfeld Units, the pixel values need to be normalized.
-Zero Centering: Zero Scaling is important to reduce the effect of the scaling differenced and depend only on the content of the images.
+Lung Segmentation: Lung segmentation is a process to identify boundaries of lungs in a CT scan image. Lung Tissue, Blood in Heart, Muscles and other lean tissues are removed by thresholding the pixels, setting a particular color for air background and using dilation and erosion operations for better separation and clarity.    
+Normalization: Normalization is a good approach in deep learning and particularly for this problem, since it involves Hounsfeld Units, the pixel values need to be normalized.  
+Zero Centering: Zero Scaling is important to reduce the effect of the scaling differenced and depend only on the content of the images.  
 ## Model Training
