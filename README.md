@@ -12,6 +12,13 @@ Using a data set of thousands of high-resolution lung scans provided by the Nati
 ### Data Science Bowl challenge
 The Data Science Bowl, presented by Booz Allen and Kaggle, is the world’s premier data science for social good competition. It convenes data scientists, technologists, domain experts, and organizations to take on the world’s challenges with data and technology. It’s a platform through which individuals can harness their passion, unleash their curiosity, and amplify their impact to effect change on a global scale.
 
+### Dataset
+This is a project to detect lung cancer from CT scan images using Deep learning (CNN) 
+
+KDSB dataset - https://www.kaggle.com/c/data-science-bowl-2017/data
+
+LUNA dataset-https://luna16.grand-challenge.org/download/
+
 ## Data & Pre-processing
 The competition organizers have provided 2 categories of data sets.  
 The first category is a set of images of the CT scans of different patients.  
@@ -27,13 +34,6 @@ Lung Segmentation: Lung segmentation is a process to identify boundaries of lung
 
 Normalization: Normalization is a good approach in deep learning and particularly for this problem, since it involves Hounsfeld Units, the pixel values need to be normalized.  
 Zero Centering: Zero Scaling is important to reduce the effect of the scaling differenced and depend only on the content of the images. 
-
-### Dataset
-This is a project to detect lung cancer from CT scan images using Deep learning (CNN) 
-
-KDSB dataset - https://www.kaggle.com/c/data-science-bowl-2017/data
-
-LUNA dataset-https://luna16.grand-challenge.org/download/
 
 ### U-Net Network
 Image segmentation using U-Net
