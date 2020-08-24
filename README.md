@@ -29,6 +29,10 @@ KDSB dataset - https://www.kaggle.com/c/data-science-bowl-2017/data
 
 LUNA dataset-https://luna16.grand-challenge.org/download/
 
+In this dataset, you are given over a thousand low-dose CT images from high-risk patients in DICOM format. Each image contains a series with multiple axial slices of the chest cavity. Each image has a variable number of 2D slices, which can vary based on the machine taking the scan and patient.
+
+The DICOM files have a header that contains the necessary information about the patient id, as well as scan parameters such as the slice thickness.
+
 ## Data & Pre-processing  
 
 The competition organizers have provided 2 categories of data sets.  
