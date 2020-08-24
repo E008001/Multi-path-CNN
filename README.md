@@ -1,5 +1,6 @@
 ## Multi-path CNN
 Multi – path Convolution Neural Networks for Lung Cancer Detection
+https://link.springer.com/article/10.1007/s11045-018-0626-9
 ## The Problem 
 lung cancer strikes 225,000 people every year in the United States,and more and more in all of the world. Early detection is critical to give patients the best chance at recovery and survival.   
 
