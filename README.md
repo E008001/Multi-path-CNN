@@ -15,8 +15,8 @@ the finest solution for lung cancer is early diagnosis and treatment. To this en
 #### Low-dose computed tomography (LDCT). 
 The only recommended screening test for lung cancer is low-dose computed tomography (also called a low-dose CT scan, or LDCT). In this test, you are lying down and moved through a donut-shaped X-ray machine while holding your breath. A low-dose CT scan for lung cancer screening uses no dyes, no injections, and requires nothing to swallow by mouth. The scan is called “low dose” because radiation exposure is less than with a standard CT scan. The LDCT scan takes several X-ray images of the lungs, and a computer combines the images for interpretation by a radiologist.  
 #### Who Should Be Screened for Lung Cancer?
-Lung cancer screening is recommended only for adults who have no symptoms but who are at high risk for developing the disease because of their smoking history and age.
-![Basic Information About Lung Cancer](https://www.cdc.gov/cancer/lung/basic_info/)
+Lung cancer screening is recommended only for adults who have no symptoms but who are at high risk for developing the disease because of their smoking history and age.  
+for more info see: [Basic Information About Lung Cancer](https://www.cdc.gov/cancer/lung/basic_info/)
 ### Data Science Bowl challenge  
 
 ![kaggle data science](https://github.com/E008001/Multi-path-CNN/blob/master/breath.jpg)
