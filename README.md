@@ -49,6 +49,9 @@ Since the data provided by the contributors are DICOM files of patients’ CT sc
 An overview of the chronology of tasks involved in the preprocessing steps are as follows:  
 Loading the DICOM files: Pixel information for each file and the respective metadata from each scan of each patient is extracted and is extremely useful.  
 
+data augmentation: The KDSB 2017 dataset is highly data imbalanced, To circumvent this, first perform data augmentation on images whose label is 1 ( augment the set of malignant
+nodules by filliping and 90-degree rotations) and perform training. Next,  considering the unbalanced data and retrain only the output layer  
+
 Converting the pixel values to Hounsfield Units (HU): Pixel units are converted to Hounsfeld Units, which represent the density of the matter shown in that position in the scan.   
 Lung Segmentation: Lung segmentation is a process to identify boundaries of lungs in a CT scan image. Lung Tissue, Blood in Heart, Muscles and other lean tissues are removed by thresholding the pixels, setting a particular color for air background and using dilation and erosion operations for better separation and clarity. (using U-Net Network for Image segmentation here)
 
