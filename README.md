@@ -43,8 +43,8 @@ DICOM is implemented in almost every radiology, cardiology imaging, and radiothe
 
 The competition organizers have provided 2 categories of data sets.  
 The first category is a set of images of the CT scans of different patients.  
-The second aspect of the dataset involves a set of labels for the patients. The number of CT scan images for every patient is not fixed , the number of the images is different  
-Since the data provided by the contributors are DICOM files of patients’ CT scans, it involves complicated pre-processing methods in order to get into the form that is usable to apply deep learning and machine learning methodologies to it.  
+The second aspect of the dataset involves a set of labels for the patients. The number of CT scan images for every patient is not fixed , the number of the images is different(around 100–400)    
+Since the data provided by the contributors are DICOM files of patients’ CT scans, it involves complicated pre-processing methods in order to get into the form that is usable to apply deep learning method to it.  
   
 An overview of the chronology of tasks involved in the preprocessing steps are as follows:  
 Loading the DICOM files: Pixel information for each file and the respective metadata from each scan of each patient is extracted and is extremely useful.  
