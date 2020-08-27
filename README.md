@@ -75,6 +75,16 @@ proposed mp-CNN
 
 ### Multi-path CNN architecture
 ![mp-cnn](https://github.com/E008001/Multi-path-CNN/blob/master/fig7.jpg)
-Multi-path CNN architecture design is a CNN Network having multi-path convolutional
-layers, the path considering smaller, medium, and larger receptive field sizes. these paths first, second, and third path, respectively.  
-That the receptive field size of the first path is 3×3, the second path is 5×5, and the third paths is 7×7.
+Multi-path CNN architecture design is a CNN Network having multi-path convolutional layers, the path considering smaller, medium, and larger receptive field sizes. these paths first, second, and third path, respectively.  
+That the receptive field size of the first path is 3×3, the second path is 5×5, and the third paths is 7×7. 
+unlike the traditional CNN, the mp-CNN has three pathways.These paths are designed to better approximate local and global dependencies of the neighboring
+pixels. The first and the second path more focused on the details (local dependency) and the third path focused on the contextual information (global dependency).
+### Concatenation  
+To average the effect of receptive field size, concatenatenation of the output of the last convolution layer of each path is the next step, and this concatenation followed by a soft-max function to predict the input. 
+### Training  
+use stochastic gradient method by repeatedly choosing labels at a random subset of patches within each lung, and calculating the mean negative log-probabilities
+for mini batch of patches and doing a gradient descent step on the CNNs parameters is the summary of this step.  
+### Evaluation metrics
+To measure how the model well perform, we compute the commonly used image detection performance measures accuracy, specificity, recall.
+### Retrain the Model
+
