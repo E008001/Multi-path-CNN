@@ -83,7 +83,7 @@ Multi-path CNN architecture design is a CNN Network having multi-path convolutio
 That the receptive field size of the first path is 3×3, the second path is 5×5, and the third paths is 7×7. 
 unlike the traditional CNN, the mp-CNN has three pathways.These paths are designed to better approximate local and global dependencies of the neighboring
 pixels. The first and the second path more focused on the details (local dependency) and the third path focused on the contextual information (global dependency).
-### Concatenation  
+#### Concatenation  
 To average the effect of receptive field size, concatenatenation of the output of the last convolution layer of each path is the next step, and this concatenation followed by a soft-max function to predict the input.
 #### Training  
 use stochastic gradient method by repeatedly choosing labels at a random subset of patches within each lung, and calculating the mean negative log-probabilities
