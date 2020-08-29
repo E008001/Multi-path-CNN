@@ -12,7 +12,9 @@ Using a data set of thousands of high-resolution lung scans provided by the Nati
 According to the World Health Organization (WHO) report 2018, lung cancer is responsible for an estimated 1.76 million deaths  
 This number is expected to be higher in developing countries.  
 the finest solution for lung cancer is early diagnosis and treatment. To this end, the primary and critical step for early diagnosis and treatment of lung cancer is identifying the lung whether it is infected by cancer or not, with better screening approaches leading to polished patient result.  
-
+#### Screening
+The national lung screening trial NLST determined that screening with CT scan decreased death rate by 20% 
+[NLST National Lung Screening Trial] (https://www.cancer.gov/types/lung/research/nlst)
 #### Low-dose computed tomography (LDCT). 
 The only recommended screening test for lung cancer is low-dose computed tomography (also called a low-dose CT scan, or LDCT). In this test, you are lying down and moved through a donut-shaped X-ray machine while holding your breath. A low-dose CT scan for lung cancer screening uses no dyes, no injections, and requires nothing to swallow by mouth. The scan is called “low dose” because radiation exposure is less than with a standard CT scan. The LDCT scan takes several X-ray images of the lungs, and a computer combines the images for interpretation by a radiologist.  
 #### Who Should Be Screened for Lung Cancer?
