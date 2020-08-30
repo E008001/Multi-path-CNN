@@ -72,9 +72,8 @@ The output of the model is an image having the same size with an input. Each pix
 This is utilized by taking the slice belongs to label 1 of the softmax of the final U-Net layer. 
 Finally, the trained U-Net is then used to segment the KDSB CT scan slices. These
 candidates have variable size (small, medium and large) and shape (circular, elliptical and
-others), where we categorized them into training set, validation set, and test set to train the
-proposed mp-CNN
-U-Net is a 2D model that is widely applied to various Bio-medical image segmentation tasks, such as brain tumor segmentation
+others), where we categorized them into training set, validation set, and test set to train the proposed mp-CNN   
+U-Net is a 2D model that is widely applied to various Bio-medical image segmentation tasks, such as brain tumor segmentation  
 more about U-Net https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28
 
 ## Model Training
