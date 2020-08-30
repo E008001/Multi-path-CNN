@@ -74,6 +74,8 @@ Finally, the trained U-Net is then used to segment the KDSB CT scan slices. Thes
 candidates have variable size (small, medium and large) and shape (circular, elliptical and
 others), where we categorized them into training set, validation set, and test set to train the
 proposed mp-CNN
+U-Net is a 2D model that is widely applied to various Bio-medical image segmentation tasks, such as brain tumor segmentation
+more about U-Net https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28
 
 ## Model Training
 
