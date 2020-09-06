@@ -92,6 +92,7 @@ for mini batch of patches and doing a gradient descent step on the CNNs paramete
 #### Evaluation metrics
 To measure how the model well perform, we compute the commonly used image detection performance measures accuracy, specificity, recall.
 #### Retrain the Model  
-
-#### Exprimental Results
+Training procedure has two phases (we called secand phase as Retrain) which helpe to train CNN’s effectively and efficiently when the distribution of labels class is unbalanced 
+#### Exprimental Results  
+Experimental result conducted on Data improve on the currently state method on accuracy, sensitivity and specificity.
 
