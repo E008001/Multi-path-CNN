@@ -91,5 +91,7 @@ use stochastic gradient method by repeatedly choosing labels at a random subset 
 for mini batch of patches and doing a gradient descent step on the CNNs parameters is the summary of this step.
 #### Evaluation metrics
 To measure how the model well perform, we compute the commonly used image detection performance measures accuracy, specificity, recall.
-#### Retrain the Model
+#### Retrain the Model  
+
+#### Exprimental Results
 
